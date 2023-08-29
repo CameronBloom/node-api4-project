@@ -15,7 +15,6 @@ server.get('/hello', (req, res) => {
 });
 
 server.use('*', (req, res) => {
-  res.json({ message: 'API is UP!' })
 });
 
 server.listen(port, () => {
